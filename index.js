@@ -11,4 +11,6 @@ javascript: (function() {
 
     // 稼働8時間
     body.querySelector('select[name="time_required_hour1"]').value = 8;
+
+    document.alert('✨書き換え完了✨');
 })();
