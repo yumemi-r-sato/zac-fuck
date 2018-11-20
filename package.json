@@ -1,0 +1,16 @@
+{
+  "name": "zac-fuck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github-zac-fuck:yumemi-r-sato/zac-fuck.git",
+  "author": "yumemi-r-sato <r_sato@yumemi.co.jp>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build-normal & yarn build-getout",
+    "build-normal": "uglifyjs src/normal.js -o dist/normal.js",
+    "build-getout": "uglifyjs src/getOutTime.js -o dist/getOutTime.js"
+  },
+  "dependencies": {
+    "uglify-es": "git+https://github.com/mishoo/UglifyJS2.git#harmony"
+  }
+}
