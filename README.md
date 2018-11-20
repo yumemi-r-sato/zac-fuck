@@ -28,7 +28,7 @@
 
 ## Usage
 
-1. copy build.js.
+1. copy dist/normal.js or dist/getOutTime.js
 2. create bookmark, paste inside url.
 3. in ZAC, click this bookmarklet.
 
